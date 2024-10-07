@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int age;
+    
+    /*cout << 6 * 3 << endl;
+    cout << "6 * 3" << endl;
+    cout << "6 * 3 = "<< 6 * 3 <<endl
+    
+    cout << "This is a test ... " << endl;
+    */
+    cout<<"Welcome to CSCI 1101."<<endl;
+    cout<<"Enter your age: ";
+    cin >> age;
+    
+    cout << "you are "<<age<<" years old."<<endl;
+
+    return 0;
+}
